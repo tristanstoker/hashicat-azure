@@ -16,5 +16,5 @@ module "network" {
     costcenter  = "it"
   }
 
-  depends_on = ["${var.prefix}-workshop"]
+  depends_on = "${var.prefix}-workshop"
 }
